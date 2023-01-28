@@ -1,8 +1,8 @@
-# Official implementation for [CLCR](CLCR: Source Data-free Domain Adaptation via Dynamic Local Context Representation)
+# Official implementation for [CLCR](CLCR: Model Adaptation via Credible Local Context Representation)
 
 
 
-Code (pytorch) for ['CLCR: Source Data-free Domain Adaptation via Dynamic Local Context Representation'] on Office-31, Office-Home, VisDA-C. This article is under review.
+Code (pytorch) for ['CLCR: Model Adaptation via Credible Local Context Representation'] on Office-31, Office-Home, VisDA-C. This article is under review.
 
 ### Framework
 
