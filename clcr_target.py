@@ -587,7 +587,7 @@ def get_nearest_sam_idx(Q, X): # Q、X arranged in format of row-vector
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='DLCR')
+    parser = argparse.ArgumentParser(description='CLCR')
     parser.add_argument('--gpu_id', type=str, nargs='?', default='1', help="device id to run")
     parser.add_argument('--s', type=int, default=0, help="source")
     parser.add_argument('--t', type=int, default=1, help="target")
@@ -614,14 +614,14 @@ if __name__ == "__main__":
     parser.add_argument('--classifier', type=str, default="bn", choices=["ori", "bn"])
     parser.add_argument('--distance', type=str, default='cosine', choices=["euclidean", "cosine"])  
 
-    parser.add_argument('--output', type=str, default='ckps_oc/dlcr2020r0/dlcr_dou')
-    parser.add_argument('--output_src', type=str, default='ckps_oc/dlcr2020r0/source')
+    parser.add_argument('--output', type=str, default='ckps_oc/clcr2020r0/clcr_dou')
+    parser.add_argument('--output_src', type=str, default='ckps_oc/clcr2020r0/source')
 
     parser.add_argument('--da', type=str, default='uda', choices=['uda', 'pda'])
     parser.add_argument('--issave', type=bool, default=True)
     args = parser.parse_args()
 
-    print("----dlcr--nce--pub----")
+    print("----clcr--nce--pub----")
     if args.dset == 'office-home':
         names = ['Art', 'Clipart', 'Product', 'RealWorld']
         args.class_num = 65 
