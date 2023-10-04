@@ -2,7 +2,7 @@
 
 
 
-Code (pytorch) for ['CLCR: Model Adaptation via Credible Local Context Representation'] on Office-31, Office-Home, VisDA-C. This article is under review.
+Code (pytorch) for ['CLCR: Model Adaptation via Credible Local Context Representation'] on Office-31, Office-Home, VisDA-C. This paper has been accepted by CAAI Transactions on Intelligence Technology (CTIT).
 
 ### Framework
 
